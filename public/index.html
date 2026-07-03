@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enviar Quadrado ao Servidor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>Projeto: Quadrado de um Número</h1>
+      <p>Informe um número. O sistema calcula o quadrado e envia o resultado para o servidor.</p>
+
+      <form id="formQuadrado">
+        <label for="numero">Digite um número:</label>
+        <input type="number" id="numero" name="numero" step="any" required>
+
+        <button type="submit">Enviar quadrado para o servidor</button>
+      </form>
+
+      <div id="resultado" class="resultado" hidden></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

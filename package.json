@@ -1,0 +1,12 @@
+{
+  "name": "projeto-quadrado-servidor",
+  "version": "1.0.0",
+  "description": "Projeto onde o usuário informa um número e o quadrado deste número é enviado para o servidor.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["javascript", "node", "servidor", "quadrado"],
+  "author": "",
+  "license": "MIT"
+}
